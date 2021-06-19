@@ -56,7 +56,7 @@ h1 {
     font-weight: bolder;
 }
 
-hr { opacity: 0.3;}
+hr { opacity: 0.2;}
 
 p{
     font-size: 1rem;
@@ -71,7 +71,10 @@ p{
     color: hsl(227, 10%, 46%);
  }
 
- span { font-weight: lighter;}
+ span { 
+     font-weight: lighter;
+     margin-left: 5px;
+    }
 
  .stats-box {
     margin: 0 30px;
@@ -122,6 +125,19 @@ p{
         position: absolute;
         top: 24%;
         left: 35%;
+    }
+    .pattern-top img {
+        width: 1000px;
+        height: 1000px;
+        bottom: 40%;
+        right: 50%;
+    }
+    
+    .pattern-bottom img {
+        width: 1500px;
+        height: 1500px;
+        top: 40%;
+        left: 50%;
     }
 }
 
