@@ -71,8 +71,10 @@ p{
     color: hsl(227, 10%, 46%);
  }
 
+ span { font-weight: lighter;}
+
  .stats-box {
-    margin: 0 20px;
+    margin: 0 30px;
     text-align: center;
  }
 
