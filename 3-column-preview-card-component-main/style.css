@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
-
-
 main { 
-  border: 3px solid blue;
-  width: 80%;
+  width: 70%;
   margin: auto;
+}
+
+.sedan, .suv, .luxury {
+  padding: 30px 10px;
+  line-height: 1.5;
 }
 
 .sedan { 
   background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .suv { 
@@ -23,6 +27,8 @@ main {
 
 .luxury { 
   background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 img, h2, p {
@@ -30,6 +36,7 @@ img, h2, p {
 }
 p {
   color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca';
 }
 h2 {
   color: hsl(0, 0%, 95%);
@@ -38,12 +45,21 @@ h2 {
 }
 
 button { 
+  height: 40px;
   margin: 0.5rem 3rem;
-  border-radius: 10px;
-  background-color: hsl(0, 0%, 95%);
-  padding: 1rem;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
   text-transform: capitalize;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca';
 }
+
+.b1 { color: hsl(31, 77%, 52%); }
+
+.b2 { color: hsl(184, 100%, 22%); }
+
+.b3 { color: hsl(179, 100%, 13%); }
 
 
 
